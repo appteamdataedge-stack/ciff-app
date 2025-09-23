@@ -39,7 +39,7 @@ function LoginPage() {
         <div className="flex justify-center mb-6">
           <img src="/dataedge-logon.png" alt="Logo" className="h-12" />
         </div>
-        <h1 className="text-2xl font-bold text-center mb-6 text-primary">Banking System</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-primary">SDMS Application</h1>
         
         {error && (
           <div className="mb-4 p-2 bg-red-50 text-red-700 text-sm rounded border border-red-200">
