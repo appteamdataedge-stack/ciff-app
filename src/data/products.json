@@ -1,0 +1,11 @@
+{
+  "products": [
+    { "id": "p1", "code": "MMD", "name": "MM Deposit", "cumGlNum": "3001", "status": "Active" },
+    { "id": "p2", "code": "MMS", "name": "MM Savings", "cumGlNum": "3002", "status": "Active" }
+  ],
+  "subProducts": [
+    { "id": "sp1", "code": "MMD-STD", "name": "MM Deposit Standard", "productId": "p1", "cumGlNum": "400101" }
+  ]
+}
+
+

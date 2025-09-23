@@ -1,0 +1,8 @@
+{
+  "customers": [
+    { "id": "c1", "custType": "Individual", "firstName": "John", "lastName": "Doe", "mobile": "1234567890" },
+    { "id": "c2", "custType": "Corporate", "tradeName": "ACME Corp", "mobile": "9876543210" }
+  ]
+}
+
+

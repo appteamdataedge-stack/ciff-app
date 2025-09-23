@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* App base styles */
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+  --color-primary: 138, 79, 240;
+  --color-primary-light: 243, 238, 254;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.bg-primary {
+  background-color: rgb(var(--color-primary));
+}
+
+.text-primary {
+  color: rgb(var(--color-primary));
+}
+
+.border-primary {
+  border-color: rgb(var(--color-primary));
+}
+
+.bg-primary-light {
+  background-color: rgb(var(--color-primary-light));
+}
+
+.hover\:bg-primary:hover {
+  background-color: rgb(var(--color-primary));
+}
+
+.hover\:text-primary:hover {
+  color: rgb(var(--color-primary));
+}
+
+.hover\:border-primary:hover {
+  border-color: rgb(var(--color-primary));
+}

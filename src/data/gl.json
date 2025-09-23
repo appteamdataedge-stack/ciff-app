@@ -1,0 +1,13 @@
+{
+  "layer3": [
+    { "id": "3001", "name": "Customer Liability - MM Deposits" },
+    { "id": "3002", "name": "Customer Liability - MM Savings" }
+  ],
+  "layer4": [
+    { "id": "400101", "name": "MM Deposit - Principal" },
+    { "id": "400102", "name": "MM Deposit - Interest" },
+    { "id": "400201", "name": "MM Savings - Principal" }
+  ]
+}
+
+
