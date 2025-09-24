@@ -1,7 +1,20 @@
 {
   "customers": [
-    { "id": "c1", "custType": "Individual", "firstName": "John", "lastName": "Doe", "mobile": "1234567890" },
-    { "id": "c2", "custType": "Corporate", "tradeName": "ACME Corp", "mobile": "9876543210" }
+    { "id": "c1", "custType": "Individual", "firstName": "John", "lastName": "Doe", "mobile": "1234567890", "email": "john.doe@example.com", "externalCif": "CIF001" },
+    { "id": "c2", "custType": "Corporate", "tradeName": "ACME Corp", "mobile": "9876543210", "email": "contact@acme.com", "externalCif": "CIF002" },
+    { "id": "c3", "custType": "Individual", "firstName": "Sarah", "lastName": "Johnson", "mobile": "3334445555", "email": "sarah.j@example.com", "externalCif": "CIF003" },
+    { "id": "c4", "custType": "Individual", "firstName": "Michael", "lastName": "Brown", "mobile": "5556667777", "email": "mbrown@example.com", "externalCif": "CIF004" },
+    { "id": "c5", "custType": "Corporate", "tradeName": "TechSolutions Inc", "mobile": "7778889999", "email": "info@techsolutions.com", "externalCif": "CIF005" },
+    { "id": "c6", "custType": "Individual", "firstName": "Emily", "lastName": "Wilson", "mobile": "1112223333", "email": "emily.w@example.com", "externalCif": "CIF006" },
+    { "id": "c7", "custType": "Corporate", "tradeName": "Global Traders Ltd", "mobile": "4445556666", "email": "contact@globaltraders.com", "externalCif": "CIF007" },
+    { "id": "c8", "custType": "Individual", "firstName": "David", "lastName": "Martinez", "mobile": "8889990000", "email": "dmartinez@example.com", "externalCif": "CIF008" },
+    { "id": "c9", "custType": "Individual", "firstName": "Jessica", "lastName": "Taylor", "mobile": "2223334444", "email": "jtaylor@example.com", "externalCif": "CIF009" },
+    { "id": "c10", "custType": "Corporate", "tradeName": "Sunshine Enterprises", "mobile": "6667778888", "email": "info@sunshine.com", "externalCif": "CIF010" },
+    { "id": "c11", "custType": "Individual", "firstName": "Robert", "lastName": "Anderson", "mobile": "9990001111", "email": "randerson@example.com", "externalCif": "CIF011" },
+    { "id": "c12", "custType": "Corporate", "tradeName": "City Financial Services", "mobile": "3336669999", "email": "support@cityfinancial.com", "externalCif": "CIF012" },
+    { "id": "c13", "custType": "Individual", "firstName": "Lisa", "lastName": "Garcia", "mobile": "7771112222", "email": "lgarcia@example.com", "externalCif": "CIF013" },
+    { "id": "c14", "custType": "Individual", "firstName": "Thomas", "lastName": "White", "mobile": "4442221111", "email": "twhite@example.com", "externalCif": "CIF014" },
+    { "id": "c15", "custType": "Corporate", "tradeName": "Ocean Imports & Exports", "mobile": "8885552222", "email": "info@oceanimpex.com", "externalCif": "CIF015" }
   ]
 }
 

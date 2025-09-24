@@ -1,10 +1,35 @@
 {
   "products": [
     { "id": "p1", "code": "MMD", "name": "MM Deposit", "cumGlNum": "3001", "status": "Active" },
-    { "id": "p2", "code": "MMS", "name": "MM Savings", "cumGlNum": "3002", "status": "Active" }
+    { "id": "p2", "code": "MMS", "name": "MM Savings", "cumGlNum": "3002", "status": "Active" },
+    { "id": "p3", "code": "TD", "name": "Term Deposit", "cumGlNum": "3003", "status": "Active" },
+    { "id": "p4", "code": "CD", "name": "Certificate of Deposit", "cumGlNum": "3004", "status": "Active" },
+    { "id": "p5", "code": "IB", "name": "Investment Bond", "cumGlNum": "3005", "status": "Active" },
+    { "id": "p6", "code": "CA", "name": "Current Account", "cumGlNum": "3006", "status": "Active" },
+    { "id": "p7", "code": "MMIF", "name": "Money Market Fund", "cumGlNum": "3007", "status": "Active" },
+    { "id": "p8", "code": "LC", "name": "Line of Credit", "cumGlNum": "3008", "status": "Active" }
   ],
   "subProducts": [
-    { "id": "sp1", "code": "MMD-STD", "name": "MM Deposit Standard", "productId": "p1", "cumGlNum": "400101" }
+    { "id": "sp1", "code": "MMD-STD", "name": "MM Deposit Standard", "productId": "p1", "cumGlNum": "400101" },
+    { "id": "sp2", "code": "MMD-PRE", "name": "MM Deposit Premium", "productId": "p1", "cumGlNum": "400102" },
+    { "id": "sp3", "code": "MMD-CORP", "name": "MM Deposit Corporate", "productId": "p1", "cumGlNum": "400103" },
+    { "id": "sp4", "code": "MMS-STD", "name": "MM Savings Standard", "productId": "p2", "cumGlNum": "400201" },
+    { "id": "sp5", "code": "MMS-PRE", "name": "MM Savings Premium", "productId": "p2", "cumGlNum": "400202" },
+    { "id": "sp6", "code": "TD-30", "name": "Term Deposit 30 Days", "productId": "p3", "cumGlNum": "400301" },
+    { "id": "sp7", "code": "TD-90", "name": "Term Deposit 90 Days", "productId": "p3", "cumGlNum": "400302" },
+    { "id": "sp8", "code": "TD-180", "name": "Term Deposit 180 Days", "productId": "p3", "cumGlNum": "400303" },
+    { "id": "sp9", "code": "TD-365", "name": "Term Deposit 365 Days", "productId": "p3", "cumGlNum": "400304" },
+    { "id": "sp10", "code": "CD-STD", "name": "Certificate of Deposit Standard", "productId": "p4", "cumGlNum": "400401" },
+    { "id": "sp11", "code": "CD-PRE", "name": "Certificate of Deposit Premium", "productId": "p4", "cumGlNum": "400402" },
+    { "id": "sp12", "code": "IB-1Y", "name": "Investment Bond 1 Year", "productId": "p5", "cumGlNum": "400501" },
+    { "id": "sp13", "code": "IB-3Y", "name": "Investment Bond 3 Year", "productId": "p5", "cumGlNum": "400502" },
+    { "id": "sp14", "code": "IB-5Y", "name": "Investment Bond 5 Year", "productId": "p5", "cumGlNum": "400503" },
+    { "id": "sp15", "code": "CA-IND", "name": "Current Account Individual", "productId": "p6", "cumGlNum": "400601" },
+    { "id": "sp16", "code": "CA-BUS", "name": "Current Account Business", "productId": "p6", "cumGlNum": "400602" },
+    { "id": "sp17", "code": "MMIF-LOW", "name": "Money Market Fund Low Risk", "productId": "p7", "cumGlNum": "400701" },
+    { "id": "sp18", "code": "MMIF-MED", "name": "Money Market Fund Medium Risk", "productId": "p7", "cumGlNum": "400702" },
+    { "id": "sp19", "code": "LC-SEC", "name": "Secured Line of Credit", "productId": "p8", "cumGlNum": "400801" },
+    { "id": "sp20", "code": "LC-UNS", "name": "Unsecured Line of Credit", "productId": "p8", "cumGlNum": "400802" }
   ]
 }
 

@@ -76,7 +76,7 @@ function LoginPage() {
         </form>
         
         <div className="mt-6 text-center text-sm text-gray-500">
-          <p>Use username: admin / password: password</p>
+          {/* <p>Use username: admin / password: password</p> */}
         </div>
       </div>
     </div>

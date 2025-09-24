@@ -19,7 +19,7 @@ function RootLayout() {
         <aside className="row-span-2 bg-white border-r border-gray-200">
           <div className="h-14 flex items-center px-4 border-b bg-primary text-white">
             <Link to="/" className="font-semibold">
-              CBS Money Market
+              SDMS Application
             </Link>
           </div>
 
@@ -61,7 +61,7 @@ function RootLayout() {
         {/* Header */}
         <header className="col-start-2 h-14 bg-white border-b border-gray-200 flex items-center justify-between px-4 shadow-sm">
           <div className="text-sm text-primary font-medium">
-            Futaric Banking System
+             Banking System
           </div>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">

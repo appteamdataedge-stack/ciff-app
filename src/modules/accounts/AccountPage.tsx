@@ -9,6 +9,15 @@ import Badge from '../../shared/ui/Badge'
 import Tabs from '../../shared/ui/Tabs'
 import customersData from '../../data/customers.json'
 import productsData from '../../data/products.json'
+
+// Debug products data
+console.log('Products data loaded:', {
+  products: productsData.products,
+  subProducts: productsData.subProducts
+})
+// Import accounts data with correct typing
+import accountsData from '../../data/accounts.json'
+// Types are provided as interface but not enforced since we're using 'any' casting for simplicity
 import { useAlerts } from '../../shared/alerts/AlertContext'
 import { storage } from '../../services/storage'
 import Modal from '../../shared/ui/Modal'
@@ -50,7 +59,15 @@ function AccountPage() {
   const storedCustomers = storage.getList<any>('customers')
   const allCustomers = [...customersData.customers, ...storedCustomers]
   const storedAccounts = storage.getList<any>('accounts')
-  const allAccounts = [...storedAccounts]
+  
+  // Cast accountsData to include the 'accounts' property
+  const initialAccounts = (accountsData as any).accounts || []
+  const allAccounts = [...initialAccounts, ...storedAccounts]
+  
+  // Log data to help debugging
+  console.log('Customers data:', customersData.customers.length, 'Stored customers:', storedCustomers.length)
+  console.log('Accounts data:', initialAccounts.length, 'Stored accounts:', storedAccounts.length)
+  console.log('Products data:', productsData.products.length, 'Subproducts:', productsData.subProducts.length)
   
   // Reset form
   const resetForm = () => {
@@ -297,7 +314,7 @@ function AccountPage() {
                         ))}
                       </Select>
                       <Button 
-                        variant="secondary" 
+                        variant="primary" 
                         size="sm" 
                         onClick={fetchCustomerById}
                         disabled={!form.custId}
@@ -471,13 +488,14 @@ function AccountPage() {
                   />
                 </div>
                 
-                <div className="space-y-1.5">
+                {/* GL Number field hidden as requested */}
+                {/* <div className="space-y-1.5">
                   <Label>GL Number</Label>
                   <Input 
                     value={form.glNum} 
                     onChange={(e) => setForm({ ...form, glNum: e.target.value })}
                   />
-                </div>
+                </div> */}
                 
                 <div className="space-y-1.5">
                   <Label>Opened On</Label>
@@ -731,12 +749,13 @@ function AccountPage() {
                 <p className="font-medium">{viewAccount.maturity}</p>
               </div>
             )}
-            {viewAccount.glNum && (
+            {/* GL Number field hidden as requested */}
+            {/* {viewAccount.glNum && (
               <div>
                 <span className="text-sm text-gray-500">GL Number</span>
                 <p className="font-medium">{viewAccount.glNum}</p>
               </div>
-            )}
+            )} */}
           </div>
           <div className="flex justify-end mt-4">
             <Button variant="secondary" onClick={() => setIsViewModalOpen(false)}>
